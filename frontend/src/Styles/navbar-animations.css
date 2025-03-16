@@ -1,0 +1,30 @@
+@keyframes glow {
+    0% {
+      box-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
+    }
+    50% {
+      box-shadow: 0 0 20px rgba(198, 198, 198, 0.8);
+    }
+    100% {
+      box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    }
+  }
+  
+  .nav-link {
+    transition: all 0.3s ease;
+  }
+  
+  .nav-link:hover {
+    animation: glow 1.5s infinite;
+  }
+  
+  .logo {
+    transition: all 0.3s ease;
+  }
+  
+  .logo:hover {
+    transform: scale(1.05);
+  }
+  
+ 
+ 
