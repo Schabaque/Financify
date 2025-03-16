@@ -14,7 +14,7 @@ import Categories from './Components/Categories'; // Importing Categories page
 import Reports from './Components/Reports'; // Importing Reports page
 import Settings from './Components/Settings'; // Importing Settings page
 import Profile from './Components/Profile'; // Importing Profile page
-import Notifications from './Components/Notifications'; // Importing Notifications page
+//import Notifications from './Components/Notifications'; // Importing Notifications page
 import Modal from './Components/Modal'; // Importing Modal component
 import TargetSavingsForm from './Components/TargetSavingsForm';
 import SavingsPrediction from './Components/SavingsPrediction';
@@ -36,7 +36,7 @@ const App = () => {
           <Route path="/reports" element={<Reports />} />
           <Route path="/settings" element={<Settings />} />
           <Route path="/profile" element={<Profile />} />
-          <Route path="/notifications" element={<Notifications />} />
+        
           <Route path="/TargetSavingsForm" element={<TargetSavingsForm />} />
           <Route path="/SavingsPrediction" element={<SavingsPrediction />} />
         </Routes>
